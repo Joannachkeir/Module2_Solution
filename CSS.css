@@ -1,6 +1,4 @@
-
 /*CSS Styling*/
-<style>
 body {
 	background-color: white;
 }
@@ -36,22 +34,52 @@ p {
 	
 }
 
+
 #p1 {
   float: left;
   position: relative;
   background-color: grey;
-
 }
 #p2 {
   float: right;
+  position: relative;
 background-color: grey;
 
 }
 #p3 {
   float: right;
+  position: relative;
 background-color: grey;
-  
+  }
 
+#Chicken {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: yellow;
+}
+
+#Beef {
+    display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: Green;
+}
+
+#Sushi {
+    display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: Red;
 }
 
 section {
